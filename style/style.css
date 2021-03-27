@@ -1,0 +1,694 @@
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../font/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../font/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+h2{
+    font-size: 44px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:visited{
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(255,255,255,0.8);
+}
+.que1{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.tels{
+    font-size: 20px;
+}
+.intro-sect{
+    background-image: url(../img/image.jpg);
+    background-size: cover;
+    padding: 180px 0 80px 0;
+}
+.intro-sect h1, .intro-sect h3{
+    color: white;
+    text-align: center;
+}
+.intro-sect h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+.intro-sect h3{
+    font-size: 36px;
+    font-family: 'Proxima Nova Lt';
+}
+.intro-list{
+    margin-top: 90px;
+}
+.intro-list h4, .intro-list li{
+    color: white;
+}
+.intro-list ul{
+    list-style: none;
+    padding: 0;
+}
+.intro-list h4{
+    font-size: 30px;
+    font-family: 'Proxima Nova Lt';
+}
+.intro-list li{
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Proxima Nova Lt';
+}
+.intro-list li::before{
+    content: "";
+    background-image: url(../img/llogo.png);
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.square{
+    width: 384px;
+    background-color: white;
+    margin-top: 65px;
+    padding-bottom: 30px;
+}
+.sign1{
+    color: #2f93d8;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Proxima Nova Lt';
+    padding-top: 20px;
+    margin: 0;
+}
+.input{
+    width: 322px;
+    height: 55px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+.input-button{
+    background-color: #2f93d8;
+    border: 0px;
+    color: white;
+    font-family: 'Proxima Nova Lt';
+}
+.scheme-sect{
+    padding: 100px 0;
+}
+.icon-block{
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+}
+.icon-block::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background-image: url(../img/arrow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 110px;
+    right: 0;
+}
+.last-icon-block::after{
+    display: none;
+}
+.icon-img{
+    border: 2px solid #2f93d8;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 25px;
+    height: 110px;
+    width: 110px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.icon-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.logos-sect{
+    padding: 100px 0;
+    margin: 0 65px;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.15));
+    background-color: #ffffff;
+}
+.logos-container{
+    display: flex;
+    margin: 50px 0  0 30px;
+}
+.logos-sect .column{
+    flex: 20%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.rate-sect{
+    padding: 90px 0;
+}
+
+.rate-block-container{
+    display: flex;
+    align-items: center;
+}
+
+.rate-block{
+    padding: 50px 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    width: 270px;
+    box-sizing: border-box;
+    margin: 0 40px;
+}
+
+.rate-heading, .rate-price{
+    text-align: center;
+    font-size: 36px;
+}
+
+.rate-heading{
+    color: #575757;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rate-price{
+    color: #2f93d8;
+}
+
+.rate-list{
+    list-style: none;
+    padding: 0;
+}
+
+.rate-block .btn-primary{
+    width: 100%;
+    background-color: #2f93d8;
+    padding: 20px;
+}
+
+.rate-block-center{
+    margin-top: -30px;
+}
+
+.rate-block-center .rate-list{
+    margin-bottom: 60px;
+}
+.rate-sect .tab-content{
+    margin-top: 60px;
+}
+
+.rate-sect .nav-pills{
+    justify-content: center;
+}
+
+
+
+.sum-sect{
+    padding: 20px 65px;
+}
+.sum-area{
+    background-color: #2f93d8;
+    padding-bottom: 120px;
+    display: flex;
+}
+.sum-p1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height: 75px;
+    padding: 90px 0 0 40px;
+}
+.sum-p2{
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Lt';
+    padding-left: 40px;
+}
+.sum-box{
+    width: 347px;
+    height: 388px;
+    margin-top: 98px;
+    margin-left: 150px;
+    background-color: white;
+
+}
+.sum-box-p1{
+    padding: 20px 20px 0 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    color: #2f93d8;
+    font-family: 'Proxima Nova Lt';
+}
+.input1-1{
+    width: 302px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.input2-1{
+    width: 302px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+.botton1-1{
+    background-color: #2f93d8;
+    color: white;
+    font-family: 'Proxima Nova Lt';
+    border: 0px;
+}
+.seq-p{
+    margin-top: 10px;
+    margin-left: 59px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #2f93d8;
+}
+.adress{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;
+}
+.w-info{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+
+
+@media (max-width: 992px){
+    .intro-sect{
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+    .logos-sect .column{
+        flex: 18%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .rate-block{
+        margin: 0 10px;
+    }
+    .intro-last {
+        margin: 0 10px;
+    }
+    .intro-list h4{
+        font-size: 24px;
+        font-family: 'Proxima Nova Lt';
+    }
+    .intro-list li{
+        margin: 20px 0;
+        font-size: 14px;
+        font-family: 'Proxima Nova Lt';
+    }
+    .square{
+        height: 218px;
+        width: 284px;
+        background-color: white;
+        margin-top: 65px;
+    }
+    .sign1{
+        color: #2f93d8;
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Proxima Nova Lt';
+        padding-top: 13.7px;
+        margin: 0;
+    }
+    .input{
+        width: 238.17px;
+        height: 37.7px;
+        margin-left: 23.67px;
+        margin-top: 6.87px;
+    }
+    .sum-sect{
+        padding: 20px 65px;
+    }
+    .sum-sect .sum-p1{
+        font-size: 40px;
+        line-height: 35px;
+        padding: 50px 0 0 20px;
+    }
+    .sum-sect .sum-p2{
+        font-size: 28px;
+        padding-left: 20px;
+    }
+    .sum-sect .sum-box{
+        width: 200px;
+        height: 233.63px;
+        margin-top: 49px;
+        margin-left: 150px;
+        background-color: white;
+    
+    }
+    .sum-sect .sum-box-p1{
+        padding: 10px 10px 0 10px;
+        font-size: 14px;
+    }
+    .sum-sect .input1-1{
+        width: 176px;
+        height: 29px;
+        margin-top: 8px;
+        margin-left: 12px;
+        font-size: 12px;
+    }
+    .sum-sect .input2-1{
+        width: 176px;
+        height: 29px;
+        margin-top: 8px;
+        margin-left: 12px;
+    }
+    .sum-sect .seq-p{
+        margin-top: 8px;
+        margin-left: 22px;
+        font-size: 10px;
+    }
+    .sum-sect .sum-area{
+        padding-bottom: 80px;
+    }
+    footer .logob{
+        width: 120%;
+    }
+    footer .adress{
+        font-size: 12px;
+    }
+    footer .w-info{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+    .rate-block-container{
+        flex-direction: column;
+    }
+    .rate-block{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .intro-sect h1{
+        font-size: 44px;
+    }
+    .intro-sect h3{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 34px;
+    }
+    .intro-list h4{
+        font-size: 24px;
+        font-family: 'Proxima Nova Lt';
+    }
+    .intro-list li{
+        margin: 20px 0;
+        font-size: 14px;
+        font-family: 'Proxima Nova Lt';
+    }
+    .square{
+        height: 218px;
+        width: 284px;
+        background-color: white;
+        margin-top: 65px;
+    }
+    .sign1{
+        color: #2f93d8;
+        font-size: 16px;
+        text-align: center;
+        font-family: 'Proxima Nova Lt';
+        padding-top: 13.7px;
+        margin: 0;
+    }
+    .input{
+        width: 238.17px;
+        height: 37.7px;
+        margin-left: 23.67px;
+        margin-top: 6.87px;
+    }
+    .rate-block{
+        margin: 0 10px;
+    }
+    .logos-sect .column{
+        flex: 33%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .sum-sect .sum-p1{
+        font-size: 30px;
+        line-height: 35px;
+        padding: 50px 0 0 20px;
+    }
+    .sum-sect .sum-p2{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .sum-sect .sum-box{
+        width: 200px;
+        height: 233.63px;
+        margin-top: 49px;
+        margin-left: 30px;
+        background-color: white;
+    
+    }
+    .sum-sect .sum-box-p1{
+        padding: 10px 10px 0 10px;
+        font-size: 14px;
+    }
+    .sum-sect .input1-1{
+        width: 176px;
+        height: 29px;
+        margin-top: 8px;
+        margin-left: 12px;
+        font-size: 12px;
+    }
+    .sum-sect .input2-1{
+        width: 176px;
+        height: 29px;
+        margin-top: 8px;
+        margin-left: 12px;
+    }
+    .sum-sect .seq-p{
+        margin-top: 8px;
+        margin-left: 22px;
+        font-size: 10px;
+    }
+    .sum-sect .sum-area{
+        padding-bottom: 80px;
+    }
+    footer .logob{
+        width: 120%;
+    }
+    footer .adress{
+        font-size: 12px;
+    }
+    footer .w-info{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px){
+    .intro-sect h1, h2{
+        font-size: 36px;
+    }.logos-sect .column{
+        flex: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .intro-sect{
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+    .logos-sect .column{
+        flex: 18%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .rate-block{
+        margin: 0 10px;
+    }
+    .intro-last {
+        margin: 0 10px;
+    }
+    .sum-sect .sum-p1{
+        font-size: 30px;
+        line-height: 35px;
+        padding: 50px 0 0 20px;
+    }
+    .sum-sect .sum-p2{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .sum-sect .sum-box{
+        width: 200px;
+        height: 233.63px;
+        margin-top: 49px;
+        margin-left: 30px;
+        background-color: white;
+    
+    }
+    .sum-sect .sum-box-p1{
+        padding: 10px 10px 0 10px;
+        font-size: 14px;
+    }
+    .sum-sect .input1-1{
+        width: 176px;
+        height: 29px;
+        margin-top: 8px;
+        margin-left: 12px;
+        font-size: 12px;
+    }
+    .sum-sect .input2-1{
+        width: 176px;
+        height: 29px;
+        margin-top: 8px;
+        margin-left: 12px;
+    }
+    .sum-sect .seq-p{
+        margin-top: 8px;
+        margin-left: 22px;
+        font-size: 10px;
+    }
+    .sum-sect .sum-area{
+        padding-bottom: 80px;
+    }
+    footer .adress-col{
+        flex: 0 10%;
+        max-width: 100%;
+    }
+    footer .logob{
+        width: 120%;
+    }
+    footer .adress{
+        font-size: 10px;
+    }
+    footer .w-info{
+        font-size: 10px;
+    }
+}
+/*
+@media (max-width: 480px){
+    .intro-sect h1, h2{
+        font-size: 36px;
+    }
+    .logos-sect .column{
+        flex: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .intro-sect{
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+    .rate-block{
+        margin: 0 10px;
+    }
+    .intro-last {
+        margin: 0 10px;
+    }
+    .sum-sect{
+        padding: 0;
+        margin: 0;
+    }
+    footer .logob{
+        width: 30%;
+        padding: 10px 10px 15px 0;
+    }
+    footer .adress{
+        font-size: 12px;
+        margin: 0;
+    }
+    footer .w-info{
+        text-align: left;
+        font-size: 12px;
+    }
+}
+@media (max-width: 320px){
+    .intro-sect h1, h2{
+        font-size: 36px;
+    }
+    .logos-sect{
+        margin: 0 20px;
+    }
+    .logos-sect .column{
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+    .intro-sect{
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+    .rate-block{
+        margin: 0 10px;
+    }
+    .intro-last {
+        margin: 0 10px;
+    }
+    .sum-sect{
+        padding: 0;
+        margin: 0;
+    }
+    footer .logob{
+        width: 20%;
+    }
+    footer .adress{
+        font-size: 8px;
+        margin: 0;
+    }
+    footer .w-info{
+        text-align: left;
+        font-size: 8px;
+    }
+}
+*/
